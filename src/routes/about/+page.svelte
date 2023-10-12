@@ -17,33 +17,28 @@
 
     <section class="information">
 
+
+        <article class="info1"> 
+            <div class="lijn"> </div>
+            <p class="tekst1"> {aboutpage.aboutIntro.aboutInfo}</p>
+        </article>
+
         <div class="info"> 
             <img class="background-info" src="/Mask-group.png" alt="background">
         </div>
-        
-
-        <article class="info1"> 
-             
-            <div class="lijn"> </div>
-          
-            <p class="tekst1"> {aboutpage.aboutIntro.aboutInfo}</p>
-            
-        </article>
 
         <div class="story-image">
-            <img src="{aboutpage.aboutIntro.contentImg.url}" alt="content">
+            <img class="img2" src="{aboutpage.aboutIntro.contentImg.url}" alt="content">
         </div>
-        
-    
-    
-            <p> {aboutpage.aboutIntro.aboutInfo2}</p>
-          
-            <hr color="#FFDA1D">
 
-            <div class="info2"> 
-                <img class="background-info2" src="/mask2-group.png" alt="background">
-            </div>
+        <p class="infoAbout2"> {aboutpage.aboutIntro.aboutInfo2}</p>
         
+        <hr color="#FFDA1D">
+
+        <div class="info2"> 
+            <img class="background-info2" src="/mask2-group.png" alt="background">
+        </div>
+    
 
     </section>
     {/each}
@@ -95,20 +90,27 @@
         margin-top: 1em;
     }
 
-    img{
-        display: block;
-        float: center; 
-        width: 70em;
-        margin: auto;
-        
+    .info{
+        margin: 0 auto;
+
+        position: relative;
+        bottom: 25em;
+        z-index: -5;
+
+        overflow: hidden;
     }
 
-   
+    .background-info{
+        width: 100%;
+        height: 45em;
+        padding: 3em;
+    }
+
     p{
         padding: 1em;
         text-align: left;
         font-size: 1.5rem;
-        width: 34em;
+        max-width: 30em;
         font-weight: bold;
         justify-content: center;
         margin: auto;
@@ -117,21 +119,21 @@
     .lijn {
         border-top: 3px var(--candelLight) solid;
         padding-top: 3em;
-        width: 390px;
+        width: 24em;
         margin-left: auto;
         margin-right: auto;
         
     }
 
     .info1 {
-        height: 800px;
         align-items: center;
         padding: 4em;
-        margin-top: -50em;
-        z-index: 10;
+
+        position: relative;
+        top: 5em;
     }
 
-   
+
     .info2 {
 
         align-items: center;
@@ -140,13 +142,13 @@
         width: 600;
     }
 
-    img.background-info {
-        width: 100em;
-    }
 
     img.background-info2 {
-        width: 90em;
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
 
+        z-index: -5;
     }
 
     hr {
@@ -161,12 +163,25 @@
         
     }
 
-    @media  (min-width: 560px) {
-        *{
-            align-items: center;
-
-        }
+    .infoAbout2{
+        z-index: 10;
     }
+
+    .story-image{
+        overflow: hidden;
+
+        position: relative;
+        bottom: 20em;
+
+    }
+
+    .img2{
+        width: 75%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+
 
 /* Mobile */
 
