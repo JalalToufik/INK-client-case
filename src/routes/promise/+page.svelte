@@ -150,7 +150,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 56%;
-    height: 29em;
+    height: 59em;
   
 }
 
