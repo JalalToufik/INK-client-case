@@ -57,6 +57,12 @@
                 </div>
             </h1>
         </div>
+        <!-- <div class="hero-video">
+            <video class="hero-video video" playsinline autoplay muted loop>
+                <source src="/Temporary-video.mp4" type="video/mp4">
+            </video>
+        </div> -->
+
     </section>
 
 <!-- INTRO ABOUT  -->
@@ -665,18 +671,6 @@
         color: var(--justWhite);
     }
 
-    .talents-discovered {
-        position: relative;
-        grid-area: 1 / 2 / 2 / 3;
-        clip-path: url(#talents-discovered-clip);
-        color: var(--candelLight);
-        transform: translateY(-8%);
-    }
-
-    .numbers-wrapper path {
-        fill: none;
-        stroke: currentColor;
-        stroke-width: 5px;
     }
 
     .talents-discovered p {

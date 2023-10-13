@@ -17,34 +17,6 @@
 
     <section class="information">
 
-        <div class="info"> 
-            <img class="background-info" src="/Mask-group.png" alt="background">
-        </div>
-        
-
-        <article class="info1"> 
-             
-            <div class="lijn"> </div>
-          
-            <p class="tekst1"> {aboutpage.aboutIntro.aboutInfo}</p>
-            
-        </article>
-
-        <div class="story-image">
-            <img src="{aboutpage.aboutIntro.contentImg.url}" alt="content">
-        </div>
-        
-    
-    
-            <p> {aboutpage.aboutIntro.aboutInfo2}</p>
-          
-            <hr color="#FFDA1D">
-
-            <div class="info2"> 
-                <img class="background-info2" src="/mask2-group.png" alt="background">
-            </div>
-        
-
     </section>
     {/each}
 
@@ -95,20 +67,11 @@
         margin-top: 1em;
     }
 
-    img{
-        display: block;
-        float: center; 
-        width: 70em;
-        margin: auto;
-        
-    }
-
-   
     p{
         padding: 1em;
         text-align: left;
         font-size: 1.5rem;
-        width: 34em;
+
         font-weight: bold;
         justify-content: center;
         margin: auto;
@@ -117,21 +80,12 @@
     .lijn {
         border-top: 3px var(--candelLight) solid;
         padding-top: 3em;
-        width: 390px;
+
         margin-left: auto;
         margin-right: auto;
         
     }
 
-    .info1 {
-        height: 800px;
-        align-items: center;
-        padding: 4em;
-        margin-top: -50em;
-        z-index: 10;
-    }
-
-   
     .info2 {
 
         align-items: center;
@@ -139,13 +93,6 @@
         height: 800px;
         width: 600;
     }
-
-    img.background-info {
-        width: 100em;
-    }
-
-    img.background-info2 {
-        width: 90em;
 
     }
 
@@ -161,12 +108,6 @@
         
     }
 
-    @media  (min-width: 560px) {
-        *{
-            align-items: center;
-
-        }
-    }
 
 /* Mobile */
 
@@ -219,23 +160,7 @@
         height: 800px;
         align-items: center;
         padding: 4em;
-    }
-
-    .info2 {
-        background-image: url("/static/mask2-group.png");
-        align-items: center;
-        margin-top: 2em;
-        height: 800px;
-    }
-
-    hr {
-        color: #FFDA1D;
-        width: 390px;
-        display: flex;
-        height: 4px;
-        margin: auto;
-    }
-
+<
 
 } */
 
