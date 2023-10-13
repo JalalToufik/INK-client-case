@@ -34,7 +34,7 @@ Op onze website vind je twee aparte pagina's: een "Over Ons", "Sponser" en een "
 * Om je project online te zetten, kun je gebruik maken van 'Github Pages'
 
 * NPM- install 
-* # or start the server and open the app in a new browser tab
+*  or start the server and open the app in a new browser tab
 npm run dev -- --open
   
 ## Gebruik 🖇
