@@ -201,6 +201,8 @@
    }
    .grid-block{
        margin: 0 auto;
+       width: 60em;
+       height: 60em;
    }
 
    /* .block-text-2{
