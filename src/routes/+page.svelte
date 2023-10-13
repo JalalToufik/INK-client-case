@@ -57,11 +57,6 @@
                 </div>
             </h1>
         </div>
-        <!-- <div class="hero-video">
-            <video class="hero-video video" playsinline autoplay muted loop>
-                <source src="/Temporary-video.mp4" type="video/mp4">
-            </video>
-        </div> -->
 
     </section>
 
@@ -671,7 +666,6 @@
         color: var(--justWhite);
     }
 
-    }
 
     .talents-discovered p {
         position: absolute;

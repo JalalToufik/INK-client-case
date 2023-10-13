@@ -15,32 +15,29 @@
         <h1>{aboutpage.aboutIntro.title}</h1>
         <h2>{aboutpage.aboutIntro.subTitle}</h2>
 
-    <section class="information">
+        <section class="information">
+            <article class="info1"> 
+                <div class="lijn"> </div>
+                <p class="tekst1"> {aboutpage.aboutIntro.aboutInfo}</p>
+            </article>
 
+            <div class="info"> 
+                <img class="background-info" src="/Mask-group.png" alt="background">
+            </div>
 
-        <article class="info1"> 
-            <div class="lijn"> </div>
-            <p class="tekst1"> {aboutpage.aboutIntro.aboutInfo}</p>
-        </article>
+            <div class="story-image">
+                <img class="img2" src="{aboutpage.aboutIntro.contentImg.url}" alt="content">
+            </div>
 
-        <div class="info"> 
-            <img class="background-info" src="/Mask-group.png" alt="background">
-        </div>
+            <p class="infoAbout2"> {aboutpage.aboutIntro.aboutInfo2}</p>
+            
+            <hr color="#FFDA1D">
 
-        <div class="story-image">
-            <img class="img2" src="{aboutpage.aboutIntro.contentImg.url}" alt="content">
-        </div>
-
-        <p class="infoAbout2"> {aboutpage.aboutIntro.aboutInfo2}</p>
+            <div class="info2"> 
+                <img class="background-info2" src="/mask2-group.png" alt="background">
+            </div>
+        </section>
         
-        <hr color="#FFDA1D">
-
-        <div class="info2"> 
-            <img class="background-info2" src="/mask2-group.png" alt="background">
-        </div>
-    
-
-    </section>
     {/each}
 
 

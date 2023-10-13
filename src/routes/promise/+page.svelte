@@ -35,7 +35,6 @@
             <p class="text3"> {promisePage.promiseMain.contentText}</p>
         </div>
     
-
     {/each}
 
 
@@ -47,36 +46,17 @@
 
 <style>
 
-*{
-    box-sizing: border-box;
-    line-height: 1.4;
-}
-    :root {
-        --charcoal: #051A1A;
-        --candelLight: #FFDA1D;
-        --justWhite: #FFFFFF;
-        --jungleGreen: #163A3A;
-        --plantGreen: #179446;
-        --pictonBlue: #3DBAE1;
-        --copy-font: 'Apercu pro', sans-serif;
-        --paragraph-font: 'Jubilat', serif;
-        --header-font: 'Kirang Haerang', sans-serif;
-        --link-hover-color: #FFDA1D;
-        --button-hover-color: #FFFFFF;
-        --top-nav-sponsor-button-hover-color: #051A1A;
-    }
-
 
     /*mobile first*/
     h1{
         font-size: 2em;
         padding: 3em;
     }
+
     h2{
         font-size: 2em;;
         padding:1em;
         max-width:30em;
-    
     }
 
     .text1, .text2{
