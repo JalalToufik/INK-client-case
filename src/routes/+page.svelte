@@ -564,14 +564,8 @@
 
 
 /* ============== NUMBERS - SECTION START ============== */
-
-    .yellow{
-        color: var(--candelLight);
-    }
-
     .numbers {
-        padding: 4em 6em 0 6em;
-
+        padding: 4em 6em;
     }
 
     .text-area {
@@ -579,8 +573,6 @@
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-between;
-        padding-bottom: 2em;
-
     }
 
     .numbers-header {
@@ -651,7 +643,6 @@
         bottom: 7%;
         right: 8%;
         transform: rotate(-12.2deg);
-        color: var(--justWhite);
     }
 
     .single-number-wrapper {
@@ -659,6 +650,7 @@
         top: 14%;
         left: 7%;
         min-width: 20em;
+        /* background-color: #FFDA1D; */
     }
 
     .nr358 {
@@ -666,6 +658,19 @@
         color: var(--justWhite);
     }
 
+    .talents-discovered {
+        position: relative;
+        grid-area: 1 / 2 / 2 / 3;
+        clip-path: url(#talents-discovered-clip);
+        color: var(--candelLight);
+        transform: translateY(-8%);
+    }
+
+    .numbers-wrapper path {
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 5px;
+    }
 
     .talents-discovered p {
         position: absolute;
@@ -721,7 +726,6 @@
         bottom: 10%;
         left: 5%;
         transform: rotate(-13deg);
-        color: var(--justWhite);
     }
 
     .nr08 {
@@ -736,6 +740,9 @@
         fill: currentColor;
         clip-path: inset(calc(var(--variable) * 100%) 0 0 0);
     }
+
+/* ============== NUMBERS SECTION END ============== */
+
 
 
     @media only screen and (max-width: 600px) {
